@@ -7,8 +7,8 @@ export PARTITION_SIZE=67108864
 
 export PATH="$RAMDISKDIR/bin/:$PATH"
 
-export OS="11.0.0"
-export SPL="2021-06"
+export OS="12.0.0"
+export SPL="2022-03"
 
 echo "ramdiskdir = $RAMDISKDIR"
 

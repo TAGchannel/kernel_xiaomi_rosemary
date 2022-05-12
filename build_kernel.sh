@@ -148,7 +148,7 @@ export KERNEL_DIR=$(pwd)
 [[ $LTO == true ]] && export NAMELTO="-LTO"
 export ZIPNAME="Genom-R$NAMELTO-BETA"
 export ZDATE=$(date "+%m%d")
-export KNAME="Genom-R$NAMELTO-$CONFIG-BETA"
+export KNAME="Genom-S$NAMELTO-$CONFIG-BETA"
 export IMAGE="${OUTDIR}/arch/arm64/boot/Image.gz"
 export DATE=$(date "+%Y%m%d-%H%M")
 export BRANCH="$(git rev-parse --abbrev-ref HEAD)"

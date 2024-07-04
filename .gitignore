@@ -39,16 +39,6 @@ modules.builtin
 #
 # Top-level generic files
 #
-/tags
-/TAGS
-/linux
-/vmlinux
-/vmlinux.32
-/vmlinux-gdb.py
-/vmlinuz
-/System.map
-/Module.markers
-
 #
 # RPM spec file (make rpm-pkg)
 #
